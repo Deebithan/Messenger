@@ -2,6 +2,8 @@ from twilio.rest import Client
 import datetime
 import pytz
 
+#account sid, auth token and from phone number has been revoked, new can be attained from Twilio.
+
 account_sid = 'ACd08bed167318af5b3f938481eb55177e'
 auth_token = 'df2a6ee535f5c1aa7e7ffcf0425950eb'
 client = Client(account_sid, auth_token)
