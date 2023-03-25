@@ -12,7 +12,7 @@ client = Client(account_sid, auth_token)
 #message = client.messages.create(
  #   body="cricket",
   #  from_='+14754656280',
-   # to='+447435228525',
+   # to='+put a phone number',
 #)
 #print(message.sid)
 
@@ -25,9 +25,9 @@ send_time_str = send_time.astimezone(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 # Schedule the message to be sent at 9:42 PM UK time
 message = client.messages.create(
-    body="cricket",
+    body="Hello",
     messaging_service_sid='SMb89ebdeab04f3a99c7ff5ef77de7446e',
-    to='+447435228525',
+    to='+put a phone number',
     send_at=send_time_str
 )
 
